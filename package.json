@@ -1,0 +1,19 @@
+{
+  "name": "react-native-hito-driver",
+  "version": "1.0.0",
+  "description": "sending the parameter key via NFC to the hito physical wallet and reading and processing the string transmitted from the QR camera",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hito",
+    "wallet"
+  ],
+  "author": "hito",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-nfc-manager": "^3.15.0",
+    "react-native-quick-crypto": "^0.7.1"
+  }
+}
